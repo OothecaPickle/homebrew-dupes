@@ -54,6 +54,11 @@ class Gcc < Formula
   depends_on 'libmpc'
   depends_on 'mpfr'
 
+  fails_with :clang do
+    build 421
+    cause "{standard input}:242:no such instruction: `vmulsd %xmm6, %xmm1,%xmm1'"
+  end
+
   def options
     [
       ['--enable-cxx', 'Build the g++ compiler'],
@@ -145,6 +150,13 @@ class Gcc < Formula
     end
 
     mkdir 'build' do
+      unless MacOS::CLT.installed?
+        # For Xcode-only systems, we need to tell the sysroot path.
+        # 'native-system-header's will be appended
+        args << "--with-native-system-header-dir=/usr/include"
+        args << "--with-sysroot=#{MacOS.sdk_path}"
+      end
+
       system '../configure', "--enable-languages=#{languages.join(',')}", *args
 
       if profiledbuild?
