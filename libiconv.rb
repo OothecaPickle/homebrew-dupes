@@ -25,7 +25,7 @@ class Libiconv < Formula
                           "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
                           "--enable-extra-encodings"
-    system "make -f Makefile.devel"
+    system "make", "-f", "Makefile.devel", "CFLAGS=#{ENV.cflags}", "CC=#{ENV.cc}"
     system "make install"
   end
 end
