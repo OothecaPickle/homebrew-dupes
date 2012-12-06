@@ -50,9 +50,7 @@ class AppleGcc42 < Formula
 
         http://opensource.apple.com/tarballs/gcc
 
-      All compilers have a `-4.2` suffix. A GFortran compiler is also included
-      and is the exact same version as the compiler provided by the `gfortran`
-      formula in the main repository.
+      All compilers have a `-4.2` suffix. A GFortran compiler is also included.
     EOS
   end
 end
