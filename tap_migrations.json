@@ -1,0 +1,18 @@
+{
+  "apple-gcc42": "homebrew/core",
+  "awk": "homebrew/core",
+  "bc": "homebrew/core",
+  "bzip2": "homebrew/core",
+  "diffstat": "homebrew/core",
+  "diffutils": "homebrew/core",
+  "ed": "homebrew/core",
+  "expect": "homebrew/core",
+  "file-formula": "homebrew/core",
+  "gpatch": "homebrew/core",
+  "gperf": "homebrew/core",
+  "grep": "homebrew/core",
+  "groff": "homebrew/core",
+  "gzip": "homebrew/core",
+  "krb5": "homebrew/core",
+  "less": "homebrew/core"
+}
