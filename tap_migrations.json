@@ -14,5 +14,20 @@
   "groff": "homebrew/core",
   "gzip": "homebrew/core",
   "krb5": "homebrew/core",
-  "less": "homebrew/core"
+  "less": "homebrew/core",
+  "libedit": "homebrew/core",
+  "libiconv": "homebrew/core",
+  "libpcap": "homebrew/core",
+  "lsof": "homebrew/core",
+  "m4": "homebrew/core",
+  "nano": "homebrew/core",
+  "ncompress": "homebrew/core",
+  "ncurses": "homebrew/core",
+  "rsync": "homebrew/core",
+  "screen": "homebrew/core",
+  "srm": "homebrew/core",
+  "tcpdump": "homebrew/core",
+  "unzip": "homebrew/core",
+  "whois": "homebrew/core",
+  "zlib": "homebrew/core"
 }
