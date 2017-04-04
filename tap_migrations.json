@@ -13,6 +13,7 @@
   "grep": "homebrew/core",
   "groff": "homebrew/core",
   "gzip": "homebrew/core",
+  "heimdal": "homebrew/core",
   "krb5": "homebrew/core",
   "less": "homebrew/core",
   "libedit": "homebrew/core",
