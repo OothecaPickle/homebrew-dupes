@@ -25,7 +25,6 @@
   "ncurses": "homebrew/core",
   "rsync": "homebrew/core",
   "screen": "homebrew/core",
-  "srm": "homebrew/core",
   "tcpdump": "homebrew/core",
   "unzip": "homebrew/core",
   "whois": "homebrew/core",
